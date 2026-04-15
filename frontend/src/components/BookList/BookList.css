@@ -1,0 +1,6 @@
+/* GRID DE LIVROS */
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}

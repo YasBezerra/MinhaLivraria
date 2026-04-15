@@ -1,0 +1,45 @@
+{
+  "books": [
+    {
+      "title": "Harry Potter e a Ordem da Fenix",
+      "author": "Jk. Rowling",
+      "price": 50,
+      "description": "bla bla bla",
+      "category": "Fantasia",
+      "stock": 20,
+      "image": "http://books.google.com/books/content?id=9TcQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "Z4X1_quCQt8"
+    },
+    {
+      "title": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "price": 20,
+      "description": "bla bla bla",
+      "category": "Romance",
+      "stock": 5,
+      "image": "http://books.google.com/books/content?id=8yE2EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "CJ6LGWvaxG8"
+    },
+    {
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "price": 20,
+      "description": "bla bla bla",
+      "category": "Literatura Brasileira",
+      "stock": 2,
+      "image": "https://via.placeholder.com/150",
+      "id": "yTAKLBBaBuo"
+    },
+    {
+      "title": "Razão e Sensibilidade",
+      "author": "Jane Austen",
+      "price": 30,
+      "description": "bla bla bla",
+      "category": "Romance",
+      "stock": 3,
+      "image": "https://via.placeholder.com/150",
+      "id": "7rKMYHHi_jw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

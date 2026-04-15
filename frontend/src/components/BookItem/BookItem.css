@@ -1,0 +1,54 @@
+.book-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* IMAGEM */
+.book-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* TEXTO */
+.book-info {
+  flex: 1;
+}
+
+.book-info h3 {
+  margin-bottom: 5px;
+}
+
+.book-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* BOTÕES */
+.book-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.book-actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-actions button:first-child {
+  background: #0984e3;
+  color: white;
+}
+
+.book-actions button:last-child {
+  background: #d63031;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.header {
+  background: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* 🔥 alinha verticalmente */
+  gap: 10px; /* 🔥 aproxima o ícone do texto */
+}
+
+.logo h1 {
+  margin: 0; /* 🔥 remove espaço estranho */
+}
